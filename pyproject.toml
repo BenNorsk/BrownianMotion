@@ -19,7 +19,8 @@ classifiers = [
 # Dependencies that your package requires to run
 dependencies = [
     "numpy",
-    "uniplot"
+    "uniplot",
+    "pytest"
 ]
 
 

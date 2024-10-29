@@ -26,7 +26,7 @@ class GBMSimulator:
         self._T = T
         self._N = N
         self._path = []
-        self.plot_title = "Geometric Brownian Motion Path"
+        self._plot_title = "Geometric Brownian Motion Path"
 
     # Getter and Setter for y0
     @property
