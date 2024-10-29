@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygbm"
+version = "0.1.0"
+description = "A simulator for Geometric Brownian Motion (GBM) and other stochastic processes"
+authors = [{ name = "Benjamin Brückner", email = "blb46@cam.ac.uk" }]
+license = { text = "MIT" }
+readme = "README.md"
+keywords = ["GBM", "geometric brownian motion", "finance", "simulation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+# Dependencies that your package requires to run
+dependencies = [
+    "numpy",
+    "uniplot"
+]
+
+
+# Optional dependencies for testing, development, or documentation
+[project.optional-dependencies]
+dev = ["pytest", "pdoc"]
+
+[tool.setuptools.packages.find]
+where = ["pygbm"]

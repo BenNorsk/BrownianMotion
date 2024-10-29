@@ -1,0 +1,3 @@
+numpy==2.1.2
+pytest==7.4.4
+uniplot==0.14.1

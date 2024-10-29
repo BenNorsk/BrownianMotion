@@ -1,0 +1,6 @@
+numpy
+uniplot
+
+[dev]
+pytest
+pdoc
