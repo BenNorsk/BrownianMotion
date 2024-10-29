@@ -12,8 +12,8 @@ Description-Content-Type: text/markdown
 Requires-Dist: numpy
 Requires-Dist: uniplot
 Requires-Dist: pytest
+Requires-Dist: matplotlib
 Provides-Extra: dev
-Requires-Dist: pytest; extra == "dev"
 Requires-Dist: pdoc; extra == "dev"
 
 # BrownianMotion

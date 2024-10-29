@@ -20,16 +20,17 @@ classifiers = [
 dependencies = [
     "numpy",
     "uniplot",
-    "pytest"
+    "pytest",
+    "matplotlib"
 ]
 
 # Specify the command-line interface entry point
 [project.scripts]
-pybgm = "pygbm.cli:main"
+pygbm = "pygbm.cli:main"
 
 # Optional dependencies for testing, development, or documentation
 [project.optional-dependencies]
-dev = ["pytest", "pdoc"]
+dev = ["pdoc"]
 
 [tool.setuptools.packages.find]
 where = ["pygbm"]
