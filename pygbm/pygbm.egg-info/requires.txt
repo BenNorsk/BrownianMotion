@@ -1,5 +1,6 @@
 numpy
 uniplot
+pytest
 
 [dev]
 pytest

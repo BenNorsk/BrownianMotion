@@ -1,5 +1,6 @@
 import numpy as np
 from uniplot import plot
+import matplotlib.pyplot as plt
 
 class GBMSimulator:
     """
@@ -103,15 +104,25 @@ class GBMSimulator:
         self._path = np.array(path)
         return np.array(path)
     
-    def plot(self):
+    def plot(self, filename=None):
         """
-        This method plots the simulated path of the Geometric Brownian Motion in the CLI."
+        This method plots the simulated path of the Geometric Brownian Motion in the CLI and saves the plot as a PNG file."
         Args:
             None
         Returns:
             None
         """
+
         plot(self._path, title=self._plot_title)
+        # Save a matplotlib plot
+        data = self._path
+        plt.plot(data)
+        plt.title(self._plot_title)
+        plt.xlabel("Time")
+        plt.ylabel("Y(t)")
+        if filename is None:
+            filename = f'{self._plot_title}.png'
+        plt.savefig(filename, dpi=300)
         return None
 
 

@@ -11,6 +11,7 @@ Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
 Requires-Dist: numpy
 Requires-Dist: uniplot
+Requires-Dist: pytest
 Provides-Extra: dev
 Requires-Dist: pytest; extra == "dev"
 Requires-Dist: pdoc; extra == "dev"

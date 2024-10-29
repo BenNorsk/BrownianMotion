@@ -23,6 +23,9 @@ dependencies = [
     "pytest"
 ]
 
+# Specify the command-line interface entry point
+[project.scripts]
+pybgm = "pygbm.cli:main"
 
 # Optional dependencies for testing, development, or documentation
 [project.optional-dependencies]

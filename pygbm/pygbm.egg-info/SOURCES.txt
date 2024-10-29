@@ -3,6 +3,9 @@ pyproject.toml
 pygbm/pygbm.egg-info/PKG-INFO
 pygbm/pygbm.egg-info/SOURCES.txt
 pygbm/pygbm.egg-info/dependency_links.txt
+pygbm/pygbm.egg-info/entry_points.txt
 pygbm/pygbm.egg-info/requires.txt
 pygbm/pygbm.egg-info/top_level.txt
+tests/test_euler_maruyama_gbm_simulator.py
 tests/test_gbm_simulator.py
+tests/test_milstein_gbm_simulator.py

@@ -1,5 +1,5 @@
 import numpy as np
-from .gbm_simulator import GBMSimulator
+from gbm_simulator import GBMSimulator
 
 class MilsteinGBMSimulator(GBMSimulator):
     """
