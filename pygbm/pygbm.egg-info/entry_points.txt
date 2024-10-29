@@ -1,2 +1,2 @@
 [console_scripts]
-pybgm = pygbm.cli:main
+pygbm = pygbm.cli:main
